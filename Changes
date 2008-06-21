@@ -1,0 +1,5 @@
+Revision history for Acme-Maybe
+
+0.01    2008-06-21 07:50 ET
+        Initial release; maybe() and decide() are provided.
+

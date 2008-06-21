@@ -1,0 +1,19 @@
+---
+name: Acme-Maybe
+version: 0.01
+author:
+  - 'Max Afonov <maxa@cpan.org>'
+abstract: Take away the pain of decision-making!
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+build_requires:
+  Test::More: 0
+provides:
+  Acme::Maybe:
+    file: lib/Acme/Maybe.pm
+    version: 0.01
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2

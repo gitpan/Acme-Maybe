@@ -1,0 +1,43 @@
+Acme-Maybe
+
+This module takes the pain of decision-making away from the
+programmer. Nuff said!
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Build.PL
+	./Build
+	./Build test
+	./Build install
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the
+perldoc command.
+
+    perldoc Acme::Maybe
+
+You can also look for information at:
+
+    RT, CPAN's request tracker
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Acme-Maybe
+
+    AnnoCPAN, Annotated CPAN documentation
+        http://annocpan.org/dist/Acme-Maybe
+
+    CPAN Ratings
+        http://cpanratings.perl.org/d/Acme-Maybe
+
+    Search CPAN
+        http://search.cpan.org/dist/Acme-Maybe
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2008 Max Afonov
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+
