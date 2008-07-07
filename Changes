@@ -1,5 +1,10 @@
 Revision history for Acme-Maybe
 
+0.02    2008-07-07 14:26 ET
+
+        Respecting list context -- bare return calls where returning
+        'false' is desired. [rt#37495]
+
 0.01    2008-06-21 07:50 ET
         Initial release; maybe() and decide() are provided.
 

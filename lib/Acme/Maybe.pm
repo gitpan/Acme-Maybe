@@ -12,11 +12,11 @@ Acme::Maybe - Take away the pain of decision-making!
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 our $CEILING = 1000;
 
@@ -52,7 +52,7 @@ the code block deserves to be executed or not.
 
 sub maybe (&) {
   my $code = shift;
-  return $code->() if decide() or return undef;
+  return $code->() if decide() or return;
 }
 
 =head2 decide
@@ -66,7 +66,7 @@ sub decide {
   if (int(rand($CEILING)) %2 == 0) {
     return 1;
   } else {
-    return undef;
+    return;
   }
 }
 
